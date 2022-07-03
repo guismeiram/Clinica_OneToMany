@@ -25,7 +25,7 @@ import lombok.ToString;
 @ToString
 public class ConsultaDTO  implements Serializable{
 	/**
-	 * 
+	 * Consulta dto
 	 */
 	private static final long serialVersionUID = 1L;
 	
