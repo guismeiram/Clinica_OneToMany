@@ -15,7 +15,7 @@ Foi utilizado:
 
 -DTO
 
-Para faiclitar o teste vou colocar o json, aqui para facilitar:
+Para faiclitar o teste vou colocar o json da classe consultacontroller , aqui para facilitar:
 
 {
    "pessoa":[{
