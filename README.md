@@ -15,7 +15,7 @@ Foi utilizado:
 
 -DTO
 
-Para faiclitar o teste o do Consulta.
+Para faiclitar o teste vou colocar o json, aqui para facilitar:
 
 {
    "pessoa":[{
