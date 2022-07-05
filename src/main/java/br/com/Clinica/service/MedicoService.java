@@ -60,7 +60,8 @@ public class MedicoService {
 	       medico.setCrm(medicoRequest.getCrm());
 	       medico.setNome(medicoRequest.getNome());
 	       medico.setIdade(medicoRequest.getIdade());
-	        return medico;
+	       
+	       return medicoRepository.save(medico);
 	    }
 	    /*private String crm;
 	private String especialidade;

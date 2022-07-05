@@ -63,7 +63,7 @@ public class ConsultorioService {
 	       consultorio.setNumero(consultorioRequest.getNumero());
 	       consultorio.setData_hora(consultorioRequest.getData_hora());
 	       
-	       return consultorio;
+	       return consultorioRepository.save(consultorio);
 	     
 	    }
 	/*private String numero;

@@ -63,7 +63,7 @@ public class ConsultaService {
 	        consultaRequest.getMedico().forEach(c ->c.setIdade(c.getIdade()));
 	        consultaRequest.getMedico().forEach(c ->c.setNome(c.getNome()));
 	       
-	       return consultaRequest;
+	       return consultaRepository.save(consultaRequest);
 	     
 	    }
 	    
